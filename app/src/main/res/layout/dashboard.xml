@@ -1,0 +1,321 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ebedec" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:gravity="center_vertical"
+            android:background="#c2292e" >
+
+
+            <ImageView
+            android:id="@+id/dashboard_dada"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/dashboard_dada"
+            />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:paddingRight="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/dashboard_dada"
+                android:gravity="center"
+                android:src="@drawable/logoratingdada"/>
+
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!-- -->
+                <!--android:textColor="#fff"-->
+                <!-- -->
+                <!--android:textSize="40sp"-->
+                <!--android:text="RatingDada"-->
+                <!--/>-->
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    >
+
+    <!--<HorizontalScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!-->-->
+        <!-- -->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scrollbars="none"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_margin="0dp"-->
+        <!--android:padding="0dp">-->
+
+        <!--<GridView-->
+        <!--android:id="@+id/listviewMovies"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scrollbars="horizontal"-->
+        <!--></GridView>-->
+
+        <!--</LinearLayout>-->
+    <!--</HorizontalScrollView>-->
+
+
+
+    <!--<TableLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#f1f1f1" >-->
+
+        <!--<TableRow-->
+            <!--android:id="@+id/tableRow1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp" >-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/hindi"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginRight="1dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="#66cdaa"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:gravity="center"-->
+                <!--android:paddingBottom="15dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:paddingTop="15dp"-->
+                <!--android:text="Hindi" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tamil"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginRight="1dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="#66cdaa"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:gravity="center"-->
+                <!--android:paddingBottom="15dp"-->
+                <!--android:paddingTop="15dp"-->
+                <!--android:text="Tamil" />-->
+
+
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp" >-->
+            <!--<TextView-->
+                <!--android:id="@+id/telugu"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginRight="1dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="#66cdaa"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:gravity="center"-->
+                <!--android:paddingBottom="15dp"-->
+                <!--android:paddingTop="15dp"-->
+                <!--android:text="Telugu" />-->
+            <!--<TextView-->
+                <!--android:id="@+id/kannada"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginRight="1dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="#66cdaa"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:gravity="center"-->
+                <!--android:paddingBottom="15dp"-->
+                <!--android:paddingTop="15dp"-->
+                <!--android:text="Kannada" />-->
+
+
+
+
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp" >-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/malayalam"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_marginRight="1dp"-->
+                <!--android:background="#66cdaa"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:paddingBottom="15dp"-->
+                <!--android:paddingTop="15dp"-->
+                <!--android:text="Malayalam" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/dummy"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_marginRight="1dp"-->
+                <!--android:background="#66cdaa"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:paddingBottom="15dp"-->
+                <!--android:paddingTop="15dp"-->
+                <!--android:visibility="invisible" />-->
+
+
+        <!--</TableRow>-->
+
+
+    <!--</TableLayout>-->
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/hindi"
+        android:background="@drawable/shadow"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hindi"
+            android:layout_margin="15dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/telugu"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shadow"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/telugu"
+            android:layout_margin="15dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/tamil"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shadow"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tamil"
+            android:layout_margin="15dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/kannada"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shadow"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kannada"
+            android:layout_margin="15dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/malayalam"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shadow"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/malayalam"
+            android:layout_margin="15dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LlAdds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</FrameLayout>

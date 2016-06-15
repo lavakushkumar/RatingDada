@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+
+     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/shadow"
+        android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/siteIcon"
+            android:src="@drawable/ratingdada_logo"
+            />
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:id="@+id/mReadreview"
+            android:textSize="10dp"
+            android:text="Read Now!"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginLeft="9dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="9dp"
+            android:background="#c2292e"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:layout_width="197dp"
+                android:layout_height="match_parent"
+                android:textColor="#3f3f3f"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/siteReview"
+                android:text="Critic revieCritic revieCritic revieCritic revieCritic revieCritic revieCritic revieCritic revieCritic revieCritic revieCritic review"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:background="#c2292e"
+
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:id="@+id/siteRating"
+                android:text="0.25/5"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="#edebec"/>
+
+
+
+
+</LinearLayout>
