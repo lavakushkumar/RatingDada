@@ -113,7 +113,7 @@ public class Movies extends BaseActivity implements AsyncRemoteCall.OnDataListen
                 if (userScrolled && firstVisibleItem + visibleItemCount == totalItemCount) {
 
                     userScrolled = false;
-                    System.out.println("End of the item....ss");
+                    System.out.println("End of the item....sss");
                     Page = Page+1;
 
                     setMovies(catid);
